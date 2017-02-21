@@ -1,3 +1,23 @@
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+li{
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin: 7px;
+}
+
+#google_apps_logo{
+    vertical-align: middle;
+}
+
+#sign_in_button{
+    
+}
+
 #search_area{
     display: block;
     margin-left: auto;
