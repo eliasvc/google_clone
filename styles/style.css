@@ -65,7 +65,7 @@
     margin-right:  auto;
     margin-top: 200px;
     height: 200px;
-    width: 525px;
+    width: 584px;
 }
 
 #google_logo{
@@ -76,11 +76,15 @@
 #search_bar{
     display: block;
     margin:  auto;
-    width: 525px;
+    width: 584px;
     height: 44px;
     margin-top: 20px;
     box-shadow: 1px 1px 1px 1px rgb(210, 207, 207);
     border: none;
+}
+
+#search_bar:hover{  
+    box-shadow: 1px 2px 5px 1px rgb(210, 207, 207);
 }
 
 #search_buttons{
@@ -104,6 +108,11 @@
     box-shadow: 0 0 0px 0px black;
 }
 
+#search_buttons input:hover{
+    color: black;
+    box-shadow: 0 0 1px 0px black;
+}
+
 #feeling_lucky_button{
     height: 36px;
     width: 140px;
@@ -113,4 +122,6 @@
     height: 36px;
     width: 125px;
 }
+
+
 
