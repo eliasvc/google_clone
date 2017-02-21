@@ -1,29 +1,62 @@
-ul{
+#header ul{
     list-style-type: none;
     text-align: right;
     margin-right: 13px;
 }
 
-li{
+#header li{
     display: inline;
     font-family: arial, sans-serif;
     font-size: 13px;
     margin: 7px;
 }
 
+#footer{
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: #666;
+    box-shadow: 0 0 0px black;
+    height: 45px;
+}
+
+#footer ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+#footer li{
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin-right: 19px;
+}
+
+#about{
+    float: left;
+}
+
+#settings{
+    
+}
+
 #google_apps_logo{
     vertical-align: middle;
 }
 
-#sign_in_button{
-    background-color: #4285f4;
-    color: white;
-    font-family: arial, sans-serif;
-    font-weight: bold;
-    height: 30px;
-    width: 70px;
-    border-radius: 2px;
-    border: none;
+#sign_in_button{    
+    background-color: #4285f4;    
+    color: white;    
+    font-family: arial, sans-serif;    
+    font-weight: bold;    
+    height: 30px;   
+    width: 70px;   
+    border-radius: 2px;   
+    border: none;
 }
 
 #search_area{
@@ -80,3 +113,4 @@ li{
     height: 36px;
     width: 125px;
 }
+
