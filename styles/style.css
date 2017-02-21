@@ -1,6 +1,7 @@
 ul{
     list-style-type: none;
     text-align: right;
+    margin-right: 13px;
 }
 
 li{
@@ -15,7 +16,14 @@ li{
 }
 
 #sign_in_button{
-    
+    background-color: #4285f4;
+    color: white;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: 70px;
+    border-radius: 2px;
+    border: none;
 }
 
 #search_area{
